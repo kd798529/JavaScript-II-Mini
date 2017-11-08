@@ -12,7 +12,15 @@ while (n <= 10) {
 // code here
 
 // when you code is ready, un-comment the next line and run the file
-// console.log(countToTen());
+
+const countToTen = (num) =>{
+  console.log(num);
+	if(num == 10) {		
+		return;
+	}
+	countToTen(num + 1);
+}
+ console.log(countToTen(6));
 /* ================ Next Problem ================= */
 
 // Problem 2:
